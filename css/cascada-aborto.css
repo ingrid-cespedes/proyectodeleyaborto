@@ -113,6 +113,7 @@ p{
 .cont-video{
 	padding: 0px;
 	margin-bottom: 88px;
+	margin: 0 auto;
 }
 
 .cont-grafico{
@@ -582,7 +583,6 @@ hr {
 	font-weight: 400;
 	text-align: left;
 	}
-
 }
 
 /*-------------------MEDIA SCREEN DE MOVIL----------------------*/
