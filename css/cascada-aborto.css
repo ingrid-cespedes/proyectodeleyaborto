@@ -451,6 +451,15 @@ hr {
     border: 0;
     background-color: red;
 }
+
+
+#HCB_comment_box h3{
+	text-align: left;
+	color: #333;
+	font-family: 'PT Sans', sans-serif !important;
+	font-size: 400px;
+}
+
 /*---------------------MEDIA SCREEN DE PC----------------------*/
 
 @media screen and (min-width: 1024px){
@@ -494,6 +503,7 @@ hr {
 
 
 }
+
 
 /*--------------------MEDIA SCREEN DE TABLET----------------------*/
 
