@@ -74,7 +74,7 @@ h2{
 	font-weight: 400;
 	text-align: center;
 	display: block;
-	margin: 70px auto;
+	margin: 70px auto 40px;
 }
 
 h3{
@@ -742,6 +742,10 @@ hr {
 		margin-bottom: 10px;
 		
 	}
+	/*para tìtulo sobre imágenes de citas*/
+	h2{
+	margin: 60px auto 40px;
+	}
 
 
  }
@@ -782,7 +786,11 @@ hr {
 		margin-bottom: 10px;
 		
 	}
-	
+	/*para tìtulo sobre imágenes de citas*/
+	h2{
+	margin: 30px auto 20px;
+	}
+
  }
  
  /*----------------imagen aborto-----------------*/
@@ -805,4 +813,5 @@ hr {
 		background: url(../img/portada-tablet.png) no-repeat fixed center center;
 		background-size: cover;
  	}
+
 }
