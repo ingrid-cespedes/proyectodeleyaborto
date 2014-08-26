@@ -179,7 +179,7 @@ h6 span{
 
 /*--inicio footer--*/
 footer{
-	background-color: #334C49;
+	background-color: #333;
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom:30px;
@@ -191,11 +191,12 @@ footer{
 .contenido1 p{
 	color: #4CBAC5;
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 .contenido1 a{
 	color: #4CBAC5;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 400;
 }
 .contenido1 a:hover{
@@ -206,11 +207,12 @@ footer{
 .contenido2 p {
 	color: #F1B6B8;
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 .contenido2 a{
 	color: #F1B6B8;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 400;
 }
 .contenido2 a:hover{
@@ -682,7 +684,14 @@ hr {
 	font-size: 1.4em;
 	line-height: 1.2em;
 	color:#EC676D;
-}
+	}
+
+	.contenido1 {
+		margin-bottom: 35px;
+	}
+	.contenido2 { 
+		margin-bottom: 35px;
+	}
  
 }
 
