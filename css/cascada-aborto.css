@@ -105,7 +105,7 @@ p{
 	margin-top: 3px;
 	width: 100%;
 	height: 550px;
-	background: url(../img/imagenembarazogeometricopc-01.png) no-repeat fixed center center;
+	background: url(../img/portada-pc-lg.png) no-repeat fixed center center;
 	background-size: cover;
 }
 
@@ -222,6 +222,7 @@ footer{
 .cont-celeste{ /*------------arreglo padding--------*/
 	width: 100%;
 	background-color: #DFF0FC;
+	padding-bottom: 30px;
 }
 
 .contenido{
@@ -460,6 +461,14 @@ hr {
 	font-weight: 400;
 }
 
+@media screen and (min-width: 1281px){
+	.img-aborto{
+	
+	background: url(../img/portada-pc-lg.png) no-repeat fixed center center;
+	
+	}
+}
+
 /*---------------------MEDIA SCREEN DE PC----------------------*/
 
 @media screen and (min-width: 1024px){
@@ -500,7 +509,13 @@ hr {
 	font-weight: 400;
 	text-align: left;
 	}
-
+	.img-aborto{
+	margin-top: 3px;
+	width: 100%;
+	height: 550px;
+	background: url(../img/portada-pc-md.png) no-repeat fixed center center;
+	background-size: cover;
+	}
 
 }
 
@@ -810,5 +825,4 @@ hr {
  	}
 }
 
-}
 
