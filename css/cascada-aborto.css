@@ -317,7 +317,7 @@ h4{
 	padding-top: 52px;
 }
 
-blockquote br{
+.cita br{
 	line-height: 1em;
 }
 
@@ -351,7 +351,7 @@ h5 span{
 	margin-bottom: none !important;
 }
 
-blockquote span{
+.cita span{
 	font-family: 'PT Sans', sans-serif !important;
 	font-size: 66px !important;
 	font-style: italic !important;
@@ -405,7 +405,7 @@ blockquote span{
 		color:#4CBBC5 !important;
 	}
 
-	.cont-celeste blockquote{
+	.cont-celeste .cita{
 		color:#4CBBC5 !important;
 	}
 
@@ -421,7 +421,7 @@ blockquote span{
 		color:#E74147;
 	}
 
-	.cont-blanco blockquote{
+	.cont-blanco .cita{
 		color:#E74147;
 	}
 
@@ -645,7 +645,7 @@ hr {
 
   @media screen and (max-width: 768px){
 
- 	blockquote{
+ 	.cita{
 	font-size: 1.5em!important;
 	line-height: 1.6em !important;	
 	}
@@ -654,7 +654,7 @@ hr {
 
   @media screen and (min-width:768px) and (max-width: 1024px){
 
- 	blockquote{
+ 	.cita{
 	font-size: 1.6em!important;
 	line-height: 1.5em !important;	
 	}
@@ -662,7 +662,7 @@ hr {
 
   @media screen and (min-width:1024px){
 
- 	blockquote{
+ 	.cita{
 	font-size: 1.7em!important;
 	line-height: 1.8em !important;	
 	}
