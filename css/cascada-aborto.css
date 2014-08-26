@@ -520,6 +520,7 @@ hr {
 	width: 100%;
 	height: 50px;
 	margin: 4px auto;
+	margin-top: 0;
 	}
 
 	p{
@@ -600,6 +601,7 @@ hr {
 	width: 100%;
 	height: 50px;
 	margin: 4px auto;
+	margin-top: 0;
 	}
 
 	nav{
@@ -804,13 +806,5 @@ hr {
  	}
 }
 
- @media screen and (min-width: 768px) and (max-width: 900px){
- 	.img-aborto{
- 		margin-top: 60px;
-		width: 100%;
-		height: 437px;
-		background: url(../img/portada-tablet.png) no-repeat fixed center center;
-		background-size: cover;
- 	}
 }
 
