@@ -794,7 +794,7 @@ hr {
  }
  
  /*----------------imagen aborto-----------------*/
- @media screen and (min-width: 320px) and (max-width: 399px) {
+ @media screen and (max-width: 767px) {
  	.img-aborto{
  		margin-top: 60px;
 		width: 100%;
@@ -804,8 +804,7 @@ hr {
  	}
 }
 
-
- @media screen and (min-width: 400px) and (max-width: 768px) {
+ @media screen and (min-width: 768px) and (max-width: 900px){
  	.img-aborto{
  		margin-top: 60px;
 		width: 100%;
@@ -813,5 +812,5 @@ hr {
 		background: url(../img/portada-tablet.png) no-repeat fixed center center;
 		background-size: cover;
  	}
-
 }
+
