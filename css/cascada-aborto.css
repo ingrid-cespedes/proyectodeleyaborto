@@ -521,6 +521,8 @@ hr {
 	height: 50px;
 	margin: 4px auto;
 	margin-top: 0;
+	position: fixed;
+	z-index:5;
 	}
 
 	p{
@@ -602,6 +604,8 @@ hr {
 	height: 50px;
 	margin: 4px auto;
 	margin-top: 0;
+	position: fixed;
+	z-index:5;
 	}
 
 	nav{
