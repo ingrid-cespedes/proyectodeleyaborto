@@ -99,6 +99,9 @@ p{
 	line-height: 24px;
 	font-weight: 400;
 }
+.estilonegrita{
+	font-weight: 700;
+}
 
 /*--imagen del aborto--*/
 .img-aborto{
