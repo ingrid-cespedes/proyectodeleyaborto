@@ -101,7 +101,7 @@ p{
 }
 
 /*--imagen del aborto--*/
-#img-aborto{
+.img-aborto{
 	margin-top: 3px;
 	width: 100%;
 	height: 550px;
@@ -428,42 +428,47 @@ h5 span{
 		color:#E74147;
 	}
 
-	.cont-img-citas{
-		width: 100%;
-		margin-bottom: 20px;
+.cont-img-citas{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contenedor-punto-texto{
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+
+.contenedor-punto{
+	margin-bottom: 60px;
+	margin-top: 10px;
+}
+
+.contenedor-punto-texto p{
+	font-size: 1.5em;
+	line-height: 1.1em;
+	color:#EC676D;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: red;
+}
+
+
+#HCB_comment_box h3{
+	text-align: left;
+	color: #333;
+	font-family: 'PT Sans', sans-serif !important;
+	font-weight: 400;
+}
+
+@media screen and (min-width: 1281px){
+	.img-aborto{
+	
+	background: url(../img/portada-pc-lg.png) no-repeat fixed center center;
+	
 	}
-
-	.contenedor-punto-texto{
-		margin-bottom: 50px;
-		margin-top: 25px;
-	}
-
-	.contenedor-punto{
-		margin-bottom: 60px;
-		margin-top: 10px;
-	}
-
-	.contenedor-punto-texto p{
-		font-size: 1.5em;
-		line-height: 1.1em;
-		color:#EC676D;
-	}
-
-	hr {
-	    height: 1px;
-	    border: 0;
-	    background-color: red;
-	}
-
-
-	#HCB_comment_box h3{
-		text-align: left;
-		color: #333;
-		font-family: 'PT Sans', sans-serif !important;
-		font-weight: 400;
-	}
-
-
 }
 
 /*---------------------MEDIA SCREEN DE PC----------------------*/
@@ -506,7 +511,13 @@ h5 span{
 	font-weight: 400;
 	text-align: left;
 	}
-
+	.img-aborto{
+	margin-top: 3px;
+	width: 100%;
+	height: 550px;
+	background: url(../img/portada-pc-md.png) no-repeat fixed center center;
+	background-size: cover;
+	}
 
 }
 
@@ -591,59 +602,13 @@ h5 span{
 	font-weight: 400;
 	text-align: left;
 	}
-
 }
-/*-------------------IMAGEN FONDO DE PC GRANDE----------------------*/
-@media screen and (min-width: 1025px) and (max-width: 1980px){
-	/*--imagen aborto---*/
-	#img-aborto{
-	margin-top: 3px;
-	width: 100%;
-	height: 550px;
-	background: url(../img/portada-pc-lg.png) no-repeat fixed center ;
-	background-size: cover;
-	}
-}
-
-/*-------------------IMAGEN FONDO DE PC CHICO----------------------*/
-@media screen and (min-width: 801px) and (max-width: 1024px){
-	#img-aborto{
-	margin-top: 3px;
-	width: 100%;
-	height: 550px;
-	background: url(../img/portada-pc-md.png) no-repeat fixed center center;
-	background-size: cover;
-	}
- }
-
-/*-------------------IMAGEN FONDO DE TABLET----------------------*/
-@media screen and (min-width: 768px) and (max-width: 800px){
-	#img-aborto{
- 		margin-top: 60px;
-		width: 100%;
-		height: 380px;
-		background: url(../img/portada-tablet.png) no-repeat fixed center center;
-		background-size: cover;
- 	}
-
-
-/*-------------------IMAGEN FONDO DE MOVIL----------------------*/
-@media screen and (max-width: 767px){
- 	/*--imagen aborto---*/
-	#img-aborto{
- 		margin-top: 60px;
-		width: 100%;
-		height: 437px;
-		background: url(../img/portada-movil2-02.png) no-repeat fixed center center;
-		background-size: cover;
- 	}
-}
-
-
 
 /*-------------------MEDIA SCREEN DE MOVIL----------------------*/
 
 @media screen and (max-width: 767px){
+	
+	
 
 	.contenido{
 	width: 90%;
@@ -878,5 +843,15 @@ h5 span{
 
  }
  
+ /*----------------imagen aborto-----------------*/
+ @media screen and (max-width: 767px) {
+ 	.img-aborto{
+ 		margin-top: 60px;
+		width: 100%;
+		height: 437px;
+		background: url(../img/portada-movil2-02.png) no-repeat fixed center center;
+		background-size: cover;
+ 	}
+}
 
 
