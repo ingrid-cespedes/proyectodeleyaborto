@@ -227,6 +227,7 @@ footer{
 	padding-bottom:30px;
 }
 .cont-oscuro h4{
+	font-weight: 400;
 	color: #ffffff;
 	text-align: center;
 }
@@ -637,6 +638,12 @@ hr {
 	font-weight: 400;
 	text-align: left;
 	}
+
+	/*footer*/
+ 	.cont-oscuro{
+ 		padding: 40px 150px;
+ 	}
+	
 }
 
 /*-------------------MEDIA SCREEN DE MOVIL----------------------*/
@@ -887,7 +894,10 @@ hr {
 	h2{
 	margin: 40px auto 20px;
 	}
-
+	/*footer*/
+ 	.cont-oscuro{
+ 		margin: 20px 50px;
+ 	}
 	
  }
  
