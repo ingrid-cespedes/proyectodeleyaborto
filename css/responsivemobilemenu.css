@@ -10,7 +10,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 
 */
 header{
-	width: 100%;
+	width: 100% !important;
 	height: 40px;
 	position: fixed;
 	z-index:5;
@@ -19,7 +19,6 @@ header{
 .rmm {
 	display:block;
 	position:relative;
-	width:100%;
 	padding:0px;
 	margin:0 auto !important;
 	text-align: center;
@@ -69,7 +68,7 @@ header{
 }
 .rmm-toggled {
 	display:none;
-	width:100%;
+	
 	position:relative;
 	overflow:hidden;
 	margin:0 auto !important;
@@ -145,6 +144,25 @@ header{
 }
 .rmm.minimal .rmm-toggled ul li:first-child a {
 	border-top:1px solid #dedede;
+}
+
+ul{
+	list-style: none;
+	font-family: 'PT Sans', sans-serif !important;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+ul li a{
+	color: #EC676D !important;
+}
+ul li a:hover{
+	color: #E84248 !important;
+	text-decoration: none;
+}
+ul li:hover{
+	border-bottom: 2px solid #E84248;
 }
 
 
