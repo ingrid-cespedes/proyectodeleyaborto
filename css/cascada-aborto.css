@@ -68,6 +68,7 @@ h1{
 	margin-top: 0px;
 }
 
+
 .titular{
 	height:438px;
 	background-color: rgba(30,30,30,0.2);
@@ -278,6 +279,12 @@ footer{
 	color:#E84248;
 	text-decoration: none;
 }
+
+.margen-footer-chico{
+	
+	margin-top: 20px;
+}
+
 /*--fin footer--*/
 
 .cont-celeste{ /*------------arreglo padding--------*/
@@ -908,7 +915,7 @@ hr {
 
  @media screen and (max-width: 360px){
  	.img-aborto{
- 		margin-top: 60px;
+ 		margin-top: 40px;
 		height: 420px;
 		background: url(../img/portada/movil360x480.png) no-repeat fixed center top;
  	}
@@ -917,7 +924,7 @@ hr {
 
  @media screen and (min-width: 360px) and (max-width: 768px){
  	.img-aborto{
- 		margin-top: 60px;
+ 		margin-top: 40px;
 		height: 420px;
 		background: url(../img/portada/movil768.png) no-repeat fixed center top;
  	}
@@ -926,7 +933,7 @@ hr {
 
  @media screen and (min-width: 768px) and (max-width: 980px){
  	.img-aborto{
- 		margin-top: 60px;
+ 		margin-top: 40px;
 		height: 437px;
 		background: url(../img/portada/tablet980x550.png) no-repeat fixed center top;
 		
@@ -936,7 +943,6 @@ hr {
  @media screen and (min-width: 980px) and (max-width: 1280px){
  	.img-aborto{
  		margin-top: 60px;
-		
 		height: 437px;
 		background: url(../img/portada/portadapcchico1280x550.png) no-repeat fixed center top;
 		
