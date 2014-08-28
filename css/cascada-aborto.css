@@ -104,13 +104,22 @@ p{
 }
 
 /*--imagen del aborto--*/
-.img-aborto{
-	margin-top: 3px;
-	width: 100%;
-	height: 550px;
-	background: url(../img/portada-pc-lg.png) no-repeat fixed center center;
-	background-size: cover;
-}
+
+ 	.img-aborto{
+ 		margin-top: 60px;
+		width: 100%;
+		height: 437px;
+		display: inline-block;
+		vertical-align: middle;
+		background-position: 50% 50%;
+    	background-repeat: no-repeat;
+		background: url(../img/portada/portadapcgrande1920x550.png);
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+ 	}
+		
+
 
 /*--Inicio de elemetos del contenedor de los gráficos--*/
 .cont-video{
@@ -466,13 +475,7 @@ hr {
 	font-weight: 400;
 }
 
-@media screen and (min-width: 1281px){
-	.img-aborto{
-	
-	background: url(../img/portada-pc-lg.png) no-repeat fixed center center;
-	
-	}
-}
+
 
 /*---------------------MEDIA SCREEN DE PC----------------------*/
 
@@ -846,8 +849,10 @@ hr {
  		margin-top: 60px;
 		width: 100%;
 		height: 437px;
-		background: url(../img/portada/movil 360 x 480.png) no-repeat fixed center center;
-		background-size: cover;
+		background: url(../img/portada/movil360x480.png) no-repeat fixed center center;
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-size: auto;
  	}
  }
 
@@ -856,8 +861,10 @@ hr {
  		margin-top: 60px;
 		width: 100%;
 		height: 437px;
-		background: url(../img/portada/movil 768.png) no-repeat fixed center center;
-		background-size: cover;
+		background: url(../img/portada/movil768.png) no-repeat fixed center center;
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-size: auto;
  	}
  }
 
@@ -866,8 +873,10 @@ hr {
  		margin-top: 60px;
 		width: 100%;
 		height: 437px;
-		background: url(../img/portada/tablet 768 x 380.png) no-repeat fixed center center;
-		background-size: cover;
+		background: url(../img/portada/tablet768x380.png) no-repeat fixed center center;
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-size: auto;
  	}
  }
 
@@ -876,8 +885,10 @@ hr {
  		margin-top: 60px;
 		width: 100%;
 		height: 437px;
-		background: url(../img/portada/tablet 980 x 550.png) no-repeat fixed center center;
-		background-size: cover;
+		background: url(../img/portada/tablet980x550.png) no-repeat fixed center center;
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-size: auto;
  	}
  }
 
@@ -886,8 +897,10 @@ hr {
  		margin-top: 60px;
 		width: 100%;
 		height: 437px;
-		background: url(../img/portada/portada pc chico 1280 x 550.png) no-repeat fixed center center;
-		background-size: cover;
+		background: url(../img/portada/portadapcchico1280x550.png) no-repeat fixed center center;
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-size: auto;
  	}
  }
 
@@ -896,8 +909,10 @@ hr {
  		margin-top: 60px;
 		width: 100%;
 		height: 437px;
-		background: url(../img/portada/portada pc grande 1920 x 550.png) no-repeat fixed center center;
-		background-size: cover;
+		background: url(../img/portada/portadapcgrande1920x550.png) no-repeat fixed center center;
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-size: auto;
  	}
  }
 
